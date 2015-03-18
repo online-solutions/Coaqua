@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_id">1565989903642836</string>
+    <string name="app_name">Coaqua</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_text">GET A CARTON OF COAQUA (OR MORE)\n DELIVERED TO YOUR DOOR</string>
+    <string name="welcome_image_des">welcome to coaqua, hope you enjoy my app</string>
+    <string name="sign_up_btn">SIGN UP</string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="logo_image_des">coaqua customer information</string>
+    <string name="under_logo_text">COAQUA HOME DELIVERY 5 DAYS A WEEK</string>
+    <string name="hintFirstName">FIRST NAME</string>
+    <string name="hintLastName">LAST NAME</string>
+    <string name="hintAddress">HOME ADDRESS</string>
+    <string name="hintPhone">PHONE NUMBER</string>
+    <string name="hintEmail">EMAIL ADDRESS</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="hintCardNumber">CARD NUMBER</string>
+    <string name="hintExpireDate">EXPRIRE DATE</string>
+    <string name="hintNameOnCard">NAME ON CARD</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="under_logo_text_order">COAQUA COMES IN CASES OF 24\n CLICK THE CASE FOR 1 OR MORE</string>
+    <string name="under_box_text">FREE SHIP ALWAYS</string>
+    <string name="preOrderText">YOU\&#39;RE GETTING</string>
+    <string name="subOrderText">DELIVERED</string>
+    <string name="tvTotal">TOTAL</string>
+    <string name="hintDegits">3 DEGITS</string>
+    <string name="title_activity_sign_up_success">SignUpSuccessActivity</string>
+    <string name="welcome_success">GREAT!\n YOU\&#39;RE GOOD TO GO</string>
+    <string name="title_activity_confirm">ConfirmActivity</string>
+    <string name="under_logo_text_confirm">YOUR COAQUA ALMOST IS ON THE WAY</string>
+    <string name="tvNumberOfCase">NUMBER OF CASES</string>
+    <string name="tvCoaCost">COAQUA COST</string>
+    <string name="tvGst">GST</string>
+    <string name="deliveryTo">IT WILL BE DELIVERED TO</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+</resources>

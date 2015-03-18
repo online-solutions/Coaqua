@@ -1,0 +1,7 @@
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/classes/debug
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-130cb49d3b2c3463aeb674fdd2042fe01a70e1e4.jar
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-8e5a39e20b415f13859fef08b59283257ce91612.jar
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4e6c28de77924b48fb289ee545e5206e6d4a9910.jar
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/classes-68d578f42cf163147dec68eee51b8c7dde23e019.jar
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/classes-425065ca25abbbee0227a00ae04a0d5e9881797d.jar
+/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/classes-26853288f3d04512dce9fd49fa5c6c3d41e0e7b0.jar

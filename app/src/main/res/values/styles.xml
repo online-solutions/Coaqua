@@ -1,0 +1,60 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppThemeScan" parent="AppBaseTheme">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+		<item name="android:background">@color/main_bg_color</item>
+		<item name="android:textColor">@color/text_color</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:editTextStyle">@style/CustomEditTextStyle</item>
+		<item name="android:imageButtonStyle">@style/CustomImageButtonStyle</item>
+		<item name="android:textSize">@dimen/normal_text_size</item>
+    </style>
+
+    <!-- Custom EditText. -->
+    <style name="CustomEditTextStyle">
+	    <item name="android:background">@color/text_color</item>
+	    <item name="android:clickable">true</item>
+	    <item name="android:enabled">true</item>
+	    <item name="android:focusable">true</item>
+	    <item name="android:focusableInTouchMode">true</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:textColor">@color/main_bg_color</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">30dp</item>
+	    <item name="android:textColorHint">#EDE8EC</item>
+	</style>
+
+     <!-- Custom ImageButton. -->
+    <style name="CustomImageButtonStyle">
+	    <item name="android:background">@color/main_bg_color</item>
+	    <item name="android:layout_width">50dp</item>
+	    <item name="android:layout_height">50dp</item>
+	    <item name="android:layout_marginLeft">50dp</item>
+	    <item name="android:layout_marginRight">50dp</item>
+	    <item name="android:layout_marginTop">20dp</item>
+	</style>
+
+    <style name="MyActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/text_color</item>
+        <item name="android:background">@color/text_color</item>
+        <item name="android:drawableBottom">@color/text_color</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+</resources>

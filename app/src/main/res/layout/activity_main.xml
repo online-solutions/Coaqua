@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    android:orientation="vertical"
+    tools:context="com.success.coaqua.activities.MainActivity" >
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/welcome_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/welcome_text"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/normal_text_size" />
+
+    <ImageView
+        android:layout_weight="10"
+        android:id="@+id/welcome_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/welcome_text"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/welcome_image_des"
+        android:src="@drawable/welcome" />
+
+    <Button
+        android:layout_weight="2"
+        android:id="@+id/sign_up_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:layout_below="@id/welcome_image"
+        android:layout_marginTop="30dp"
+        android:background="@color/text_color"
+        android:onClick="startSignUp"
+        android:text="@string/sign_up_btn"
+        android:textColor="@color/main_bg_color"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_weight="2"
+        android:src="@drawable/mini_logo"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"/>
+
+</LinearLayout>

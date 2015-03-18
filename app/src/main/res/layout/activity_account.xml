@@ -1,0 +1,136 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    tools:context="com.success.coaqua.activities.AccountActivity" >
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/logo_image_des"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/under_logo_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/under_logo_text"
+            android:textSize="@dimen/normal_text_size" />
+
+        <RelativeLayout
+            android:id="@+id/layoutAccountInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0">
+
+            <EditText
+                android:id="@+id/etCardNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="@string/hintCardNumber"
+                android:inputType="number"
+                android:paddingLeft="5dp" />
+            
+<!--             <DatePicker  -->
+<!--                 android:id="@+id/dpExpireDate" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_below="@id/etCardNumber" -->
+<!--                 android:layout_marginTop="20dp" -->
+<!--                 android:maxLength="5" -->
+<!--                 android:calendarTextColor="@color/main_bg_color" -->
+<!--                 android:hint="@string/hintExpireDate" -->
+<!--                 android:inputType="date" -->
+<!--                 android:paddingLeft="5dp" -->
+                
+<!--                 /> -->
+
+            <EditText
+                android:id="@+id/etExpireDate"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/etCardNumber"
+                android:layout_marginTop="20dp"
+                android:maxLength="5"
+                android:hint="@string/hintExpireDate"
+                android:inputType="date"
+                android:paddingLeft="5dp"
+                android:onClick="showDatePickerDialog" />
+
+            <EditText
+                android:id="@+id/etNameOnCard"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/etExpireDate"
+                android:layout_marginTop="20dp"
+                android:capitalize="characters"
+                android:hint="@string/hintNameOnCard"
+                android:inputType="textCapCharacters"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:id="@+id/etDigits"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_below="@id/etNameOnCard"
+                android:layout_marginTop="20dp"
+                android:hint="@string/hintDegits"
+                android:inputType="number"
+                android:maxLength="4"
+                android:paddingLeft="5dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp" >
+
+            <ImageButton
+                android:id="@+id/imgAccountClear"
+                style="@style/CustomImageButtonStyle"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:background="#fff"
+                android:src="@drawable/clear" />
+
+            <ImageButton
+                android:id="@+id/imgAccountChecked"
+                style="@style/CustomImageButtonStyle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="#fff"
+                android:src="@drawable/checked" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Scan by Camera"
+            android:textColor="@color/text_color"
+            android:onClick="onScanPress"
+            />
+</RelativeLayout>

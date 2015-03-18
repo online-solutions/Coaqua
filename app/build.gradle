@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.success.coaqua"
+        minSdkVersion 16
+        targetSdkVersion 16
+    }
+
+    signingConfigs {
+        myConfig {
+            storeFile file("example.keystore")
+            storePassword "abc123"
+            keyAlias "example-alias"
+            keyPassword "abc123"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFile file('proguard.cfg')
+            signingConfig signingConfigs.myConfig
+        }
+    }
+}
+
+apply plugin: 'com.android.application'
+
+dependencies {
+//    if (parent != null) {
+//        compile project(':card.io')
+//    } else {
+//        compile 'io.card:android-sdk:4.0.2'
+//    }
+    compile 'io.card:android-sdk:4.0.2'
+    compile 'com.facebook.android:facebook-android-sdk:3.23.0'
+}

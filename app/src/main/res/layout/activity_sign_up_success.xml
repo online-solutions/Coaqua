@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.success.coaqua.activities.SignUpSuccessActivity" >
+
+    <RelativeLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/sign_up_success"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Customer Name" />
+
+        <TextView
+            android:id="@+id/tvCustomerAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCustomerName"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Customer Address" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/welcome_success"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutInfo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="@string/welcome_success" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <ImageButton
+            android:id="@+id/imgSuccessClear"
+            style="@style/CustomImageButtonStyle"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/clear" />
+
+        <ImageButton
+            android:id="@+id/imgSuccessChecked"
+            style="@style/CustomImageButtonStyle"
+            android:layout_alignParentRight="true"
+            android:onClick="startAccountActivity"
+            android:src="@drawable/checked" />
+    </RelativeLayout>
+
+</RelativeLayout>

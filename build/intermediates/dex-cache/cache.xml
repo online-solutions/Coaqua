@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4e6c28de77924b48fb289ee545e5206e6d4a9910.jar" />
+    </item>
+    <item
+        jar="/home/phungdinh/Documents/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-130cb49d3b2c3463aeb674fdd2042fe01a70e1e4.jar" />
+    </item>
+    <item
+        jar="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/classes-26853288f3d04512dce9fd49fa5c6c3d41e0e7b0.jar" />
+    </item>
+    <item
+        jar="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/exploded-aar/io.card/android-sdk/4.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ad75ffd66edc4e3f6f7490372ea66a88e2b8ec72">
+        <dex dex="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/classes-68d578f42cf163147dec68eee51b8c7dde23e019.jar" />
+    </item>
+    <item
+        jar="/home/phungdinh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-8e5a39e20b415f13859fef08b59283257ce91612.jar" />
+    </item>
+    <item
+        jar="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96a08acffc0d3cf8425107b82bc4009a1f82a66c">
+        <dex dex="/home/phungdinh/Documents/android-studio-project/part4/Coaqua/app/build/intermediates/pre-dexed/debug/classes-425065ca25abbbee0227a00ae04a0d5e9881797d.jar" />
+    </item>
+
+</items>

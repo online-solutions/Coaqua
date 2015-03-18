@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.success.coaqua.activities.ConfirmActivity" >
+
+    <ImageView
+        android:layout_weight="3"
+        android:id="@+id/logo_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/logo_image_des"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_weight="0.5"
+        android:id="@+id/under_logo_text_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/logo_image"
+        android:gravity="center"
+        android:text="@string/under_logo_text_confirm"
+        android:textSize="@dimen/normal_text_size" />
+
+    <View
+        android:id="@+id/vLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/under_logo_text_confirm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/text_color" />
+
+    <TableLayout
+        android:layout_weight="2"
+        android:id="@+id/layoutOrderInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/vLine">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="50dp"
+                android:text="@string/tvNumberOfCase" />
+
+            <TextView
+                android:id="@+id/tvNumberOfCases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="2" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="50dp"
+                android:text="@string/tvCoaCost" />
+
+            <TextView
+                android:id="@+id/tvCoaCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="$0.00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="50dp"
+                android:text="@string/tvGst" />
+
+            <TextView
+                android:id="@+id/tvGst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="$12.00" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="50dp"
+                android:text="@string/tvTotal" />
+
+            <TextView
+                android:id="@+id/tvGrandTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="$0.00" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_weight="2.5"
+        android:id="@+id/layoutDeliveryInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/layoutOrderInfo"
+        android:background="@color/text_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/tvDeliveryTo"
+            style="@style/CustomEditTextStyle"
+            android:gravity="center"
+            android:text="@string/deliveryTo"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            style="@style/CustomEditTextStyle"
+            android:gravity="center"
+            android:text="CUSTOMER NAME" />
+
+        <TextView
+            android:id="@+id/tvCustomerAddress"
+            style="@style/CustomEditTextStyle"
+            android:gravity="center"
+            android:text="CUSTOMER ADDRESS" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            style="@style/CustomEditTextStyle"
+            android:gravity="center"
+            android:text="PHONE NUMBER" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1.5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvConfirm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CONFIRM" />
+
+        <ImageButton
+            android:id="@+id/imgConfirmChecked"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tvConfirm"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#fff"
+            android:onClick="startPayment"
+            android:src="@drawable/checked" />
+    </LinearLayout>
+
+</LinearLayout>
